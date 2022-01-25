@@ -5,7 +5,6 @@ import {
 } from "sdz-agent-types";
 
 import Firebird from "node-firebird";
-import { resolve } from "path/posix";
 
 export default class Connector implements ConnectorInterface {
   private connection: any;
