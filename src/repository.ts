@@ -12,4 +12,12 @@ export default class SQLRepository extends AbstractRepository {
 
       return this.getConnector().execute(statement);
   }
+
+  async count(entity) {
+    const resultSet = await this.execute(`SELECT COUNT (*) as total FROM (${this.buildQuery(this.loadFile(entity))}) as total`);
+    const obj = {};
+
+    Object.keys(resultSet).map((key) => obj[key.toLowerCase()] = resultSet[key]);
+    return obj[0].TOTAL;
+}
 }
