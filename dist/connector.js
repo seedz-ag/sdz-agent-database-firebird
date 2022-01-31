@@ -61,13 +61,17 @@ class Connector {
     }
     setConfig(config) {
         const options = {};
+        options.host = config.host;
+        options.port = config.port;
+        options.database = config.schema;
+        options.user = config.username;
+        options.password = config.password;
         options.lowercase_keys = false; // set to true to lowercase keys
         options.role = null; // default
         options.pageSize = 4096; // default when creating database
         options.pageSize = 4096; // default when creating database
         options.retryConnectionInterval = 1000; // reconnect interval in case of connection drop
-        this.config = { ...options,
-            ...config };
+        this.config = { ...options };
         return this;
     }
 }
