@@ -1,3 +1,9 @@
 {
-    "",""
+	"cnpjOrigemDados": "cnpjOrigemDados",
+	"id": "id",
+	"dataCadastro": "dataCadastro",
+	"dataAtualizacao": "dataAtualizacao",
+	"dtEmissaoFaturamento": "dtEmissaoFaturamento",
+	"statusNfFaturamento": "statusNfFaturamento",
+	"tipoFaturamento": "tipoFaturamento"
 }

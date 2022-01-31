@@ -1,0 +1,11 @@
+{
+	"cnpjOrigemDados": "cnpjOrigemDados",
+	"id": "id",
+	"dataCadastro": "dataCadastro",
+	"dataAtualizacao": "dataAtualizacao",
+	"sku": "sku",
+	"descricao": "descricao",
+	"branding": "branding",
+	"um": "um",
+	"grupo": "grupo"
+}

@@ -1,0 +1,16 @@
+{
+	"cnpjOrigemDados": "cnpjOrigemDados",
+	"id": "id",
+	"dataCadastro": "dataCadastro",
+	"dataAtualizacao": "dataAtualizacao",
+	"dataEmissao": "dataEmissao",
+	"tipo": "tipo",
+	"idNotaFiscal": "idNotaFiscal",
+	"idNotaFiscalOrigem": "idNotaFiscalOrigem",
+	"idItem": "idItem",
+	"descricaoItem": "descricaoItem",
+	"skuItem": "skuItem",
+	"unidadeMedidaItem": "unidadeMedidaItem",
+	"loteItem": "loteItem",
+	"quantidadeItem": "quantidadeItem"
+}

@@ -1,0 +1,8 @@
+{
+	"cnpjOrigemDados": "cnpjOrigemDados",
+	"id": "id",
+	"dataAtualizacao": "dataAtualizacao",
+	"idItem": "idItem",
+	"descricaoItem": "descricaoItem",
+	"qtdTotal": "qtdTotal"
+}
